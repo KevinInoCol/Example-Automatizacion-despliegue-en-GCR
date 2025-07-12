@@ -1,0 +1,5 @@
+steps:
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['build', '-f', 'Dockerfile.prod', '-t', 'us-central1-docker.pkg.dev/project-mlops-10-streamlit/repo-deploy-fastapi-cicd/image-v1-deploy-fastapi-cicd:latest', '.']
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['push', 'us-central1-docker.pkg.dev/project-mlops-10-streamlit/repo-deploy-fastapi-cicd/image-v1-deploy-fastapi-cicd:latest']
