@@ -1,17 +1,23 @@
 ## Después de creado el repositorio de forma manual hacemos lo siguiente:
 - git init
-git add .
-git commit -m "Proyecto de automatización de despliegue en GCR"
+- git add .
+- git commit -m "Proyecto de automatización de despliegue en GCR"
+
 ## Vinculamos nuestro repositorio local con el remoto en GitHub y le damos el nombre de origin
-git remote add origin https://github.com/KevinInoCol/Automatizacion-Deploy-en-GCR-de-GCP.git
+- git remote add origin https://github.com/KevinInoCol/Example-Automatizacion-despliegue-en-GCR.git
 
 ## Tu repo probablemente usa "main" como rama principal
-git branch -M main
+- git branch -M main
 
 ## Hacemos el push al repositorio remoto en GitHub 
 git push -u origin main
-## Si da error al momento de subir como un "remote: Invalid username or password" y "fata: Authentication failed for ..". Entonces ve al:
+## Si da error al momento de subir como un error tipo "remote: Invalid username or password" y "fatal: Authentication failed for ..". Entonces ve al:
 https://github.com/settings/tokens
+
+
+
+
+
 
 
 
@@ -23,6 +29,11 @@ https://github.com/settings/tokens
 - git commit -m "cicd.yaml take 3"
 
 - git push
+
+
+
+
+
 
 
 
